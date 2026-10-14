@@ -246,7 +246,7 @@
 "gitlens.openInTerminalLocation": "editor",
 "workbench.statusBar.visible": false,
 "github.copilot.enable": {
-    "*": false,
+    "*": true,
     "plaintext": false,
     "markdown": false,
     "scminput": false

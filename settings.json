@@ -158,7 +158,7 @@
     },
     "tailwindCSS.experimental.configFile": null,
     "editor.fontWeight": "400",
-    "workbench.activityBar.location": "hidden",
+    "workbench.activityBar.location": "top",
     "editor.inlineSuggest.suppressSuggestions": true,
     "codesnap.backgroundColor": "#FFC540",
     "codesnap.showLineNumbers": false,
@@ -198,13 +198,11 @@
     "workbench.iconTheme": "gruvbox-material-icon-theme",
     "workbench.sideBar.location": "right",
     "material-icon-theme.files.color": "#42a5f5",
-    "window.commandCenter": false,
     "workbench.editor.editorActionsLocation": "hidden",
     "workbench.layoutControl.enabled": false,
     "workbench.browser.showInTitleBar": false,
     "terminal.integrated.mouseWheelScrollSensitivity": 3,
     "claudeCode.preferredLocation": "panel",
-    "window.menuBarVisibility": "compact",
     "explorer.confirmDragAndDrop": false,
     "liveServer.settings.donotShowInfoMsg": true,
     "redhat.telemetry.enabled": false,
@@ -229,12 +227,31 @@
 "workbench.tree.enableStickyScroll": false,
 "chat.viewSessions.orientation": "stacked",
 "liveServer.settings.donotVerifyTags": true,
-"workbench.colorTheme": "Catppuccin Mocha",
 "markdown-preview-enhanced.codeBlockTheme": "github-dark.css",
 "markdown-preview-enhanced.previewTheme": "github-dark.css",
 "errorLens.enabled": true,
 "gitlens.graph.details.location": "auto",
-"workbench.editor.empty.hint": "hidden"
+"workbench.editor.empty.hint": "hidden",
+"chat.titleBar.openInAgentsWindow.enabled": false,
+"window.menuBarVisibility": "compact",
+"window.commandCenter": false,
+"vscode-pets.petColor": "pink",
+"vscode-pets.theme": "forest",
+"vs-kubernetes": {
+    "vscode-kubernetes.helm-path-linux": "/home/guimachado/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm",
+    "vscode-kubernetes.minikube-path-linux": "/home/guimachado/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube",
+    "vscode-kubernetes.kubectl-path-linux": "/home/guimachado/.local/state/vs-kubernetes/tools/kubectl/kubectl"
+},
+"workbench.colorTheme": "Gruvbox Dark Hard",
+"gitlens.openInTerminalLocation": "editor",
+"workbench.statusBar.visible": false,
+"github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+},
+"terminal.integrated.defaultLocation": "editor"
 
 
 }
